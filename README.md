@@ -11,3 +11,7 @@ Link: https://www.flaticon.com/br/uicons
     - @import url(./global.css);
     - @import url(./custom.css);
     - @import url(./responsive.css);
+
+#Estrutura de JS
+- bootstrap.min.js
+- popper.min.js
