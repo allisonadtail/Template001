@@ -2,10 +2,21 @@ body, html {
     font-family: "Roboto", sans-serif;
 }
 
+/* Header / Menu */
+
 #header {
     width: 100%;
-    background: transparent;
+    height: 70px;
+    /* background: #cadede; */
     transition: background ease-out 0.3s;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
+    display: flex;
+    align-items: center;
+}
+
+#header .xLogo {
+    width: 180px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.15);
 }
 
 #header .navbar-collapse {
@@ -13,7 +24,6 @@ body, html {
 }
 
 #header .nav-link {
-    text-transform: uppercase !important;
     font-weight: 500;
     padding-right: 0;
     padding-left: 0;
@@ -21,13 +31,17 @@ body, html {
     margin-left: 15px;
     border: 3px solid transparent;
     transition: .3s;
+    line-height: .4em;
+    color:var(--black);
 }
 
 #header .nav-link:hover {
-    color: var(--primary);
-    border-bottom: 3px solid var(--primary);
+    border-bottom: 1px solid var(--primary);
     transition: .3s;
 }
+
+
+/* slider */
 
 #slider {
     background: url(../assets/slider-bg.svg) no-repeat center bottom;

@@ -1,4 +1,5 @@
 :root {
-    --primary: red;
+    --primary: #00cec8;;
     --secondary: green;
+    --black: #000;
 }
